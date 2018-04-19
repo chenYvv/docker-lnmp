@@ -1,2 +1,3 @@
-FROM mysql
+FROM mysql:5.7
+#USER mysql
 ENV MYSQL_ROOT_PASSWORD 123456
